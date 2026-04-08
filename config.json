@@ -1,0 +1,15 @@
+{
+  "port": 8080,
+  "protocol": "shadowsocks",
+  "settings": {
+    "method": "chacha20-ietf-poly1305",
+    "password": "MrValdez",
+    "network": "tcp,udp"
+  },
+  "streamSettings": {
+    "network": "ws",
+    "wsSettings": {
+      "path": "/MrValdez/Shadowsocks"
+    }
+  }
+}
